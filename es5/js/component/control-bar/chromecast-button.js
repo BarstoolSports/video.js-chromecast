@@ -42,8 +42,8 @@ var ChromeCastButton = (function (_Button) {
 
         _classCallCheck(this, ChromeCastButton);
 
+        console.log('### CHROMECAST BITCH');
         _get(Object.getPrototypeOf(ChromeCastButton.prototype), 'constructor', this).call(this, player, options);
-        this.hide();
         this.initializeApi();
         options.appId = player.options_.chromecast.appId;
         player.chromecast = this;
